@@ -1,12 +1,27 @@
 from typing import List, Dict, Any, Tuple
 
+try:
+    import numpy as np
+    import faiss
+    from sentence_transformers import SentenceTransformer
+    FAISS_AVAILABLE = True
+except ImportError:
+    FAISS_AVAILABLE = False
+
 class RetrievalEngine:
     def __init__(self, data_loader=None):
         self.data_loader = data_loader
+        self.encoder = None
+        self.index = None
+        if FAISS_AVAILABLE:
+            try:
+                self.encoder = SentenceTransformer("all-MiniLM-L6-v2")
+            except Exception:
+                self.encoder = None
 
     def find_similar_historical_messages(self, sender_id: str, content: str) -> Tuple[List[Dict[str, Any]], str, str]:
         """
-        Find historical messages for sender and determine user behavior patterns.
+        Find historical messages for sender and determine user behavior patterns using FAISS vector search and SentenceTransformers.
         If similar messages were ignored repeatedly -> prefer Digest or Mute.
         If similar messages received replies -> prefer Notify.
         Returns (historical_records, behavioral_preference, evidence_ids).
