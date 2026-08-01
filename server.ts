@@ -157,8 +157,9 @@ async function runPredictionPipeline() {
 
         Return strictly JSON with keys: action ("notify"|"digest"|"mute"), reason (1 sentence), confidence (0.50-0.99).`;
 
+        const modelName = process.env.GEMINI_MODEL || "gemini-2.5-pro";
         const response = await ai.models.generateContent({
-          model: "gemini-3.6-flash",
+          model: modelName,
           contents: prompt,
           config: { responseMimeType: "application/json" }
         });

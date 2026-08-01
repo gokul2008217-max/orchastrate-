@@ -29,10 +29,12 @@ class GeminiReasoningEngine:
         historical_pattern: str = "neutral"
     ) -> Optional[Dict[str, Any]]:
         """
-        Uses Gemini 3.6 Flash for intelligent multimodal classification and reasoning.
+        Uses Gemini 2.5 Pro for intelligent multimodal classification and reasoning.
         """
         if not self.client:
             return None
+
+        model_name = os.environ.get("GEMINI_MODEL", "gemini-2.5-pro")
 
         prompt = f"""
         Analyze this incoming WhatsApp message for notification routing decision:
@@ -53,7 +55,7 @@ class GeminiReasoningEngine:
 
         try:
             response = self.client.models.generateContent(
-                model="gemini-3.6-flash",
+                model=model_name,
                 contents=prompt,
                 config=types.GenerateContentConfig(
                     response_mime_type="application/json"
