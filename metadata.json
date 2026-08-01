@@ -1,0 +1,6 @@
+{
+  "name": "WhatsApp Message Notification Router",
+  "description": "AI-powered WhatsApp notification routing system with multimodal message classification, scam/spam detection, personalization, and analytics dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

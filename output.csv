@@ -1,0 +1,11 @@
+message_id,action,message_type,reason,confidence,evidence_message_ids
+M1001,notify,text,"Immediate notification is required for a critical medical emergency involving a family member.",0.99,H001
+M1002,notify,voice,"Immediate notification is required for an urgent same-day doctor appointment and lab report consultation.",0.98,none
+M1003,notify,text,"This message is a time-sensitive payment deadline notification from a bank regarding an upcoming credit card bill.",0.95,H003
+M1004,mute,image,"Automated Scam Defense: Suspicious reward giveaway or credential phishing pattern detected.",0.98,H002
+M1005,digest,image,"The message contains non-urgent event information about a weekend meetup, making it suitable for inclusion in the daily digest.",0.95,H005
+M1006,digest,image,"The message contains a routine, non-urgent delivery status update from a business, making it appropriate for the daily digest.",0.95,H003
+M1007,notify,voice,"This is a direct personal message from a close friend asking about weekend plans, which requires a timely response.",0.95,H005
+M1008,mute,image,"Low Priority Mute: Silenced group or promotional spam content.",0.88,none
+M1009,mute,voice,"Automated Scam Defense: Suspicious reward giveaway or credential phishing pattern detected.",0.98,H004
+M1010,digest,text,"Non-Urgent Update: Informational message scheduled for daily digest.",0.82,H005

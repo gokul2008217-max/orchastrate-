@@ -1,0 +1,6 @@
+business_id,name,category,verification_status,spam_score
+B301,HDFC Bank,banking,verified,0.02
+B302,TechCorp Logistics,delivery,verified,0.05
+B303,MegaDeals Online,ecommerce,unverified,0.65
+B304,FastLoan Instant Cash,finance_scam,unverified,0.98
+B305,AeroFly Airlines,travel,verified,0.01

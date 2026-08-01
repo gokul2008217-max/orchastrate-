@@ -1,0 +1,6 @@
+group_id,user_id,role
+G201,U101,admin
+G202,U102,member
+G203,U102,member
+G204,U105,admin
+G205,U104,member

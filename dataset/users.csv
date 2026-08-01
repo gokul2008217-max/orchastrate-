@@ -1,0 +1,9 @@
+user_id,name,phone_number,relationship_tier,notification_preference,is_blocked
+U101,Sarah Connor,+15550192,family,always_notify,false
+U102,David Miller,+15550183,close_friend,normal,false
+U103,TechCorp Support,+15550111,business,normal,false
+U104,Unknown Sender,+15550999,stranger,normal,false
+U105,Crypto Kings Promo,+15550888,spammer,mute_all,true
+U106,HDFC Bank Official,+15550222,verified_business,always_notify,false
+U107,Dr. Alex Vance,+15550333,doctor_service,always_notify,false
+U108,Neighborhood Deals,+15550444,unverified_business,mute_promos,false

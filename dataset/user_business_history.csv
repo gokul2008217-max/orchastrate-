@@ -1,0 +1,6 @@
+user_id,business_id,last_transaction_date,active_orders,subscription_status,past_interaction_count
+U101,B301,2026-07-28,0,active_account,45
+U101,B302,2026-07-31,1,out_for_delivery,12
+U101,B303,2026-05-10,0,unsubscribed,2
+U101,B304,none,0,none,0
+U101,B305,2026-07-15,1,confirmed_booking,8

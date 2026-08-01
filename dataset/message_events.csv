@@ -1,0 +1,9 @@
+event_id,message_id,event_type,event_time,user_engagement
+E001,M1001,received,2026-08-01T08:00:00Z,high
+E002,M1002,received,2026-08-01T08:05:00Z,high
+E003,M1003,received,2026-08-01T08:12:00Z,none
+E004,M1004,received,2026-08-01T08:20:00Z,blocked
+E005,M1005,received,2026-08-01T08:30:00Z,medium
+E006,M1006,received,2026-08-01T08:45:00Z,high
+E007,M1007,received,2026-08-01T09:00:00Z,none
+E008,M1008,received,2026-08-01T09:15:00Z,low

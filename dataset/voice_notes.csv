@@ -1,0 +1,4 @@
+voice_id,message_id,file_name,duration_seconds,transcript,detected_urgency
+VN001,M1002,voice_urgent_doctor.mp3,14,"Hey Sarah, this is Dr. Vance's clinic reminding you about your lab report consultation scheduled today at 2 PM. Please call us back urgently if you need to reschedule.",high
+VN002,M1007,voice_casual_chat.mp3,42,"Hey bro, what are you doing this weekend? We were thinking of getting pizza and playing games, let me know when you get a chance.",low
+VN003,M1009,voice_suspicious_bank.mp3,18,"Urgent alert from HDFC Security Desk: Your account access has been restricted due to suspicious activity. Send your card CVV and PIN to unfreeze immediately.",critical_scam

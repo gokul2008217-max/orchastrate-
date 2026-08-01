@@ -1,0 +1,11 @@
+message_id,sender_id,group_id,message_type,content,timestamp,media_file,is_forwarded,reply_to_message_id
+M1001,U101,G201,text,"Mom had a slip on the kitchen stairs! We are taking her to St. Jude Emergency Room right now, please come asap!",2026-08-01T08:00:00Z,none,false,none
+M1002,U107,none,voice,"Doctor appointment reminder and lab report consultation",2026-08-01T08:05:00Z,voice_urgent_doctor.mp3,false,none
+M1003,U103,none,text,"Your HDFC Bank Credit Card bill of $420.50 is due on Aug 03. Pay now to avoid late fees: https://hdfc.bank/pay-bill",2026-08-01T08:12:00Z,none,false,none
+M1004,U105,G204,image,"WhatsApp Annual Cash Giveaway - Claim $50000 now!",2026-08-01T08:20:00Z,scam_prize_claim.jpg,true,none
+M1005,U102,G202,image,"Check out the poster for the upcoming Tech Meetup this weekend",2026-08-01T08:30:00Z,poster_event.jpg,false,none
+M1006,U103,none,image,"TechCorp Order #88219 Out for Delivery",2026-08-01T08:45:00Z,receipt_delivery.jpg,false,none
+M1007,U102,G203,voice,"Hey bro weekend pizza and games plan",2026-08-01T09:00:00Z,voice_casual_chat.mp3,false,none
+M1008,U108,none,image,"Mega Summer Sale flyer at SuperMart 80% off",2026-08-01T09:15:00Z,sale_flyer.jpg,true,none
+M1009,U104,none,voice,"Urgent account restriction voice warning - verify PIN immediately",2026-08-01T09:25:00Z,voice_suspicious_bank.mp3,true,none
+M1010,U102,G202,text,"Can everyone review slide 4 on the project proposal before our 11 AM client call?",2026-08-01T09:40:00Z,none,false,none

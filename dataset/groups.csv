@@ -1,0 +1,6 @@
+group_id,group_name,group_type,silenced_by_user,member_count
+G201,Connor Family Chat,family,false,5
+G202,Project Alpha Core Team,work,false,12
+G203,Weekend Football Buddies,social,true,28
+G204,Crypto Investment Signals,promotional_group,true,1500
+G205,Apt 4B Building Owners,community,false,45

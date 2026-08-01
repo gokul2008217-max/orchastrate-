@@ -1,0 +1,5 @@
+image_id,message_id,file_name,detected_category,ocr_text,is_scam
+IMG001,M1005,poster_event.jpg,event_poster,"AI & Tech Meetup 2026! Join us this Saturday at 10 AM, Grand Tech Center Hall B. RSVP now at techmeet.org",false
+IMG002,M1004,scam_prize_claim.jpg,scam_poster,"CONGRATULATIONS! You won $50,000 in WhatsApp Annual Draw! Send $100 processing fee to UPI id bank@verify to claim immediately!",true
+IMG003,M1006,receipt_delivery.jpg,payment_reminder,"TechCorp Order #88219 Out for Delivery. Total balance due: $0.00 (Prepaid). Track live at techcorp.com/track",false
+IMG004,M1008,sale_flyer.jpg,advertisement,"MEGA SUMMER CLEARANCE! Up to 80% off all clothing items at SuperMart. Offer valid till Sunday.",false

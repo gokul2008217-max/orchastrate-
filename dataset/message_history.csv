@@ -1,0 +1,7 @@
+history_id,sender_id,content_category,user_action_taken,response_time_seconds,action_count
+H001,U101,family_emergency,replied,15,25
+H002,U105,crypto_promo,ignored,0,14
+H003,U103,delivery_otp,opened,5,30
+H004,U104,lottery_claim,reported_spam,0,3
+H005,U102,casual_chat,replied,180,50
+H006,B303,discount_flash_sale,ignored,0,18
