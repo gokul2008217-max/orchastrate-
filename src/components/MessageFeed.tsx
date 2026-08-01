@@ -63,7 +63,7 @@ export const MessageFeed: React.FC<MessageFeedProps> = ({
             <MessageSquare className="w-4 h-4 text-emerald-400" />
             Live Incoming Processing Feed
           </h2>
-          <p className="text-[11px] text-slate-500">Multimodal messages parsed via OCR, voice transcription & Gemini 3.6 Flash reasoning</p>
+          <p className="text-[11px] text-slate-500">Multimodal messages parsed via OCR, voice transcription & Gemini 2.5 Pro reasoning</p>
         </div>
 
         {/* Search */}

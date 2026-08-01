@@ -11,7 +11,7 @@ An intelligent, multimodal AI notification routing system that automatically cla
 - **Business Trust Engine**: Evaluates verified businesses, active delivery tracking, payment due reminders, and subscription statuses.
 - **Personalization & Historical Reasoning**: Cross-references past user responses (e.g., replied vs. repeatedly ignored messages).
 - **Interactive React Dashboard**: Real-time status logs, dataset upload, single-message tester, analytics charts, and `output.csv` viewer.
-- **Gemini 3.6 Flash Reasoning**: Deep semantic reasoning for nuanced message prioritization.
+- **Gemini 2.5 Pro Reasoning**: Deep semantic reasoning for nuanced message prioritization.
 
 ---
 

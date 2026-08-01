@@ -41,7 +41,7 @@ export const Navbar: React.FC<NavbarProps> = ({
         {/* Gemini Engine Connected pill */}
         <div className="hidden lg:flex items-center gap-2 px-3 py-1 bg-[#121212] rounded-full border border-[#222]">
           <div className="w-2 h-2 rounded-full bg-emerald-500 shadow-[0_0_8px_rgba(16,185,129,0.5)]"></div>
-          <span className="text-[10px] font-mono text-slate-300">GEMINI-3.6-FLASH: CONNECTED</span>
+          <span className="text-[10px] font-mono text-slate-300">GEMINI-2.5-PRO: CONNECTED</span>
         </div>
 
         {/* Action Controls */}

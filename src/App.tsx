@@ -204,7 +204,7 @@ export default function App() {
       <footer className="h-10 border-t border-[#1A1A1A] bg-[#080808] flex items-center px-6 justify-between text-[10px] font-mono text-slate-500 mt-auto">
         <div className="flex gap-4">
           <span>PIPELINE: ACTIVE</span>
-          <span>ROUTING LOGIC: HYBRID GEMINI 3.6</span>
+          <span>ROUTING LOGIC: HYBRID GEMINI 2.5 PRO</span>
           <span>DATASET: {messages.length} RECORDS</span>
         </div>
         <div className="flex gap-4 items-center">
