@@ -64,7 +64,7 @@ export default function App() {
       'Running Voice Note transcription and urgency analysis...',
       'Scanning for spam keywords & phishing scam signatures...',
       'Evaluating Business Trust Engine & user history...',
-      'Invoking Gemini 3.6 Flash multimodal reasoning engine...',
+      'Invoking Gemini 2.5 Pro multimodal reasoning engine...',
       'Generating notification action decisions (Notify / Digest / Mute)...',
       'Calculating confidence scores & evidence IDs...',
       'Successfully updated output.csv and backend outputs!'
